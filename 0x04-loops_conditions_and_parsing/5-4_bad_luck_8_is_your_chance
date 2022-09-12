@@ -6,15 +6,15 @@ do
 	if [ $x = 4 ]
 	then
 		echo "bad luck"
-		x=$(( x++ ))
+		x=$(( x + 1 ))
 	else
 		if [ $x = 8 ]
 		then
 			echo "good luck"
-			x=$(( x++ ))
+			x=$(( x + 1 ))
 		else
 			echo "Best School"
-			x=$(( x++ ))
+			x=$(( x + 1 ))
 		fi
 	fi
 done
