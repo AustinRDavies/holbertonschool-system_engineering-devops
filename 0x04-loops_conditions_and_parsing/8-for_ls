@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+# This script will display the contents of the current directory, in list format, only the name after the dash
+ls -1 | tr -d '[:digit:]-'
