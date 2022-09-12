@@ -7,14 +7,12 @@ do
 	then
 		echo "bad luck"
 		x=$(( x + 1 ))
+	elif [ $x = 8 ]
+	then
+		echo "good luck"
+			x=$(( x + 1 ))
 	else
-		if [ $x = 8 ]
-		then
-			echo "good luck"
+	echo "Best School"
 			x=$(( x + 1 ))
-		else
-			echo "Best School"
-			x=$(( x + 1 ))
-		fi
 	fi
 done
