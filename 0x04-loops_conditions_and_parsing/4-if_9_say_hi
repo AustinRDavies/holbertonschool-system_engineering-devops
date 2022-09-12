@@ -6,9 +6,9 @@ do
 	if [ $x = 9 ]
 	then
 		echo "Hi"
-		x=$(( x + 1))
+		x=$(( x + 1 ))
 	else
 		echo "Best School"
-		x=$(( x + 1))
+		x=$(( x + 1 ))
 	fi
 done
