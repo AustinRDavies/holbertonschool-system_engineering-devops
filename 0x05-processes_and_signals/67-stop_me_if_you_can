@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# sends sigterm to q7 script
+pkill -f 7-highlander
