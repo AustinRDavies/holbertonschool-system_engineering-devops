@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # This script will display the contents of the current directory, in list format, only the name after the dash
 content=0
 list=$(ls)
