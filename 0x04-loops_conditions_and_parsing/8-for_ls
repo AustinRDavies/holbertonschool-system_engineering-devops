@@ -1,6 +1,8 @@
 #!/usr/bin/bash
 # This script will display the contents of the current directory, in list format, only the name after the dash
-for i in $(ls)
+x=0
+list=$(ls)
+for x in $list
 do
-	echo "$i" | cut -d "-" -f2
+	echo "$x" | cut -d "-" -f2
 done
