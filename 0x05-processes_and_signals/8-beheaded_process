@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# this script will kill q7
+pkill -9 '7-highlander'
