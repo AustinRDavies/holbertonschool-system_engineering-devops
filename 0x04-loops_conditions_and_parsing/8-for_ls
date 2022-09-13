@@ -1,3 +1,6 @@
 #!/usr/bin/bash
 # This script will display the contents of the current directory, in list format, only the name after the dash
-find . -mindepth 1 -maxdepth 1 -type f | sort | tr -d './[:digit:]-'
+for i in $(ls)
+do
+	echo "$i" | cut -d "-" -f2
+done
